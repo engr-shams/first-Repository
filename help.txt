@@ -22,8 +22,16 @@ git branch -M main
 git remote add origin https://github.com/engr-shams/first-Repository.git
 git push -u origin main
 
-//push an existing repository from the command line
-//git remote add origin https://github.com/engr-shams/first-Repository.git
+
+
+// synchronise repository
 git add .
+git commit -m "new line added"
+git push
+
+
+
+//push an existing repository from the command line
+git remote add origin https://github.com/engr-shams/first-Repository.git
 git branch -M main
 git push -u origin main
